@@ -1,4 +1,4 @@
-/* Change this fileyane file to get your personal Portfolio */
+/* Change this file to get your personal Portfolio */
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
@@ -22,7 +22,7 @@ const greeting = {
   subTitle: emoji(
     "An Artificial Intelligence graduate 🤖 from Amrita Vishwa Vidyapeetham with strong interest in Machine Learning, Data Science, and Full Stack Development. I enjoy building intelligent systems and solving real-world problems using AI."
   ),
-  resumeLink: "", // add Google Drive resume link later
+  resumeLink: "",
   displayGreeting: true
 };
 
@@ -44,7 +44,6 @@ const skillsSection = {
     emoji("⚡ Develop Web Applications using React & JavaScript"),
     emoji("⚡ Work with APIs, Databases, and Deployment tools")
   ],
-
   softwareSkills: [
     { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
     { skillName: "Machine Learning", fontAwesomeClassname: "fas fa-robot" },
@@ -60,13 +59,12 @@ const skillsSection = {
   display: true
 };
 
-// Education Section
+// Education Section (NO IMAGE – FIXES VERCEL ERROR)
 const educationInfo = {
   display: true,
   schools: [
     {
       schoolName: "Amrita Vishwa Vidyapeetham",
-      logo: require("./assets/images/education.png"),
       subHeader: "Bachelor's Degree in Artificial Intelligence",
       duration: "2021 – 2025",
       desc: "Focused on Artificial Intelligence, Machine Learning, Data Science, and Software Engineering.",
@@ -79,7 +77,7 @@ const educationInfo = {
   ]
 };
 
-// Tech Stack Proficiency
+// Tech Stack
 const techStack = {
   viewSkillBars: true,
   experience: [
@@ -90,95 +88,54 @@ const techStack = {
   displayCodersrank: false
 };
 
-// Work Experience (Fresher Friendly)
+// Work Experience
 const workExperiences = {
   display: true,
   experience: [
     {
       role: "Artificial Intelligence Intern",
       company: "Academic & Personal Projects",
-      companylogo: require("./assets/images/work.png"),
       date: "2023 – 2025",
-      desc: "Worked on AI, ML, and Data Science projects including prediction systems, signal processing, and web-based applications.",
-      descBullets: [
-        "Developed ML models using Python",
-        "Performed data preprocessing & analysis",
-        "Built dashboards & web apps"
-      ]
+      desc: "Worked on AI, ML, and data-driven projects including prediction systems and intelligent applications."
     }
   ]
 };
 
-// Open Source Section
+// Open Source
 const openSource = {
   showGithubProfile: "true",
   display: true
 };
 
-// Projects Section
+// Projects (kept empty to avoid errors)
 const bigProjects = {
   title: "Projects",
   subtitle: "ACADEMIC & PERSONAL PROJECTS",
-  projects: [
-    {
-      image: require("./assets/images/project.png"),
-      projectName: "Bank Stock Price Prediction",
-      projectDesc:
-        "Machine learning based system to predict bank stock closing prices using historical data.",
-      footerLink: [
-        {
-          name: "GitHub",
-          url: "https://github.com/charish68"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/project.png"),
-      projectName: "EMG Controlled Prosthetic Arm",
-      projectDesc:
-        "Gesture recognition system using EMG signals, ML, and embedded systems for prosthetic control.",
-      footerLink: [
-        {
-          name: "Project Details",
-          url: ""
-        }
-      ]
-    }
-  ],
+  projects: [],
   display: true
 };
 
-// Achievements Section
+// Achievements
 const achievementSection = {
   title: emoji("Achievements & Certifications 🏆"),
-  subtitle: "Academic projects, certifications and technical accomplishments",
+  subtitle: "Academic and technical achievements",
   achievementsCards: [],
   display: false
 };
 
-// Blogs Section
-const blogSection = {
-  display: false
-};
+// Blogs / Talks / Podcast disabled
+const blogSection = { display: false };
+const talkSection = { display: false };
+const podcastSection = { display: false };
 
-// Talks Section
-const talkSection = {
-  display: false
-};
-
-// Podcast Section
-const podcastSection = {
-  display: false
-};
-
-// Resume Section
+// Resume
 const resumeSection = {
   title: "Resume",
   subtitle: "Download my resume",
   display: true
 };
 
-// Contact Section
+// Contact
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Interested in AI / ML or Software projects? Let’s connect!",
@@ -187,9 +144,7 @@ const contactInfo = {
 };
 
 // Twitter
-const twitterDetails = {
-  display: false
-};
+const twitterDetails = { display: false };
 
 const isHireable = true;
 

@@ -6,7 +6,7 @@ import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
-// import Achievement from "./achievement/Achievement";
+// import Achievement from "./achievement/Achievement"; ❌ REMOVED
 import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
@@ -33,19 +33,15 @@ const Main = () => {
         () => setIsShowingSplashAnimation(false),
         splashScreen.duration
       );
-      return () => {
-        clearTimeout(splashTimer);
-      };
+      return () => clearTimeout(splashTimer);
     }
   }, []);
 
-  const changeTheme = () => {
-    setIsDark(!isDark);
-  };
+  const changeTheme = () => setIsDark(!isDark);
 
   return (
     <div className={isDark ? "dark-mode" : null}>
-      <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
+      <StyleProvider value={{isDark, changeTheme}}>
         {isShowingSplashAnimation && splashScreen.enabled ? (
           <SplashScreen />
         ) : (
@@ -58,7 +54,7 @@ const Main = () => {
             <WorkExperience />
             <Projects />
             <StartupProject />
-            <Achievement />
+            {/* ❌ Achievement REMOVED */}
             <Blogs />
             <Talks />
             <Twitter />

@@ -79,7 +79,6 @@ const educationInfo = {
   ]
 };
 
-
 /* Tech Stack */
 const techStack = {
   viewSkillBars: true,

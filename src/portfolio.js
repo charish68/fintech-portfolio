@@ -176,7 +176,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements & Research 🏆"),
   subtitle: "Hackathons, Research & Leadership",
-  achievementsCards: [
+  achievements: [
     {
       title: "IEEE Research Paper (In Progress)",
       subtitle:
@@ -195,6 +195,7 @@ const achievementSection = {
   ],
   display: true
 };
+
 
 /* Blogs / Talks / Podcast (Disabled) */
 const blogSection = { display: false };

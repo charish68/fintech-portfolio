@@ -22,7 +22,7 @@ const greeting = {
   subTitle: emoji(
     "AI & Machine Learning Engineer specializing in Deep Learning, Reinforcement Learning, Biomedical AI, and Full-Stack AI systems. Passionate about building intelligent systems that create real-world impact."
   ),
-  resumeLink: "/NV_Charish_Yadav_Elite_Resume.pdf", // must be inside /public
+  resumeLink: "/NV_Charish_Yadav_Elite_Resume.pdf",
   displayGreeting: true
 };
 
@@ -66,6 +66,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Amrita Vishwa Vidyapeetham",
+      logo: require("./assets/images/education.png"),
       subHeader: "Bachelor's Degree in Artificial Intelligence",
       duration: "2021 – 2025",
       desc:
@@ -111,7 +112,8 @@ const workExperiences = {
       role: "Web Development Intern",
       company: "Qveto Technologies",
       date: "June 2025 – September 2025",
-      desc: "Developed analytics dashboards using React.js and Flask.",
+      desc:
+        "Developed analytics dashboards using React.js and Flask.",
       descBullets: [
         "Improved performance by 30%",
         "Built REST APIs and frontend dashboards",
@@ -151,9 +153,9 @@ const bigProjects = {
       footerLink: []
     },
     {
-      projectName: "Traffic Control System using RL",
+      projectName: "Traffic Control System using Reinforcement Learning",
       projectDesc:
-        "Reinforcement Learning agent trained to reduce traffic congestion.",
+        "RL agent trained to reduce traffic congestion.",
       footerLink: []
     },
     {
@@ -166,10 +168,35 @@ const bigProjects = {
   display: true
 };
 
+/* Achievements */
 const achievementSection = {
-  display: false
+  title: emoji("Achievements & Research 🏆"),
+  subtitle: "Hackathons, Research & Leadership",
+  achievementsCards: [
+    {
+      title: "IEEE Research Paper (In Progress)",
+      subtitle:
+        "Predictive Modeling of Biomedical Signals using CNN-LSTM architectures.",
+      image: null,
+      footerLink: []
+    },
+    {
+      title: "AI for Healthcare Hackathon Finalist",
+      subtitle:
+        "Finalist – NVIDIA & Amrita Innovation Hub Hackathon 2025.",
+      image: null,
+      footerLink: []
+    },
+    {
+      title: "Leadership & Mentorship",
+      subtitle:
+        "Team Lead for AI automation project; Mentor at Amrita AI & Robotics Club.",
+      image: null,
+      footerLink: []
+    }
+  ],
+  display: true
 };
-
 
 /* Blogs / Talks / Podcast */
 const blogSection = { display: false };

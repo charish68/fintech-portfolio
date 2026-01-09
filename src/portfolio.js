@@ -169,32 +169,8 @@ const bigProjects = {
 
 /* Achievements */
 const achievementSection = {
-  title: emoji("Achievements & Research 🏆"),
-  subtitle: "Hackathons, Research & Leadership",
-  achievementsCards: [
-    {
-      title: "IEEE Research Paper (In Progress)",
-      subtitle:
-        "Predictive Modeling of Biomedical Signals using CNN-LSTM architectures.",
-      image: null,
-      footerLink: []
-    },
-    {
-      title: "AI for Healthcare Hackathon Finalist",
-      subtitle:
-        "Finalist – NVIDIA & Amrita Innovation Hub Hackathon 2025.",
-      image: null,
-      footerLink: []
-    },
-    {
-      title: "Leadership & Mentorship",
-      subtitle:
-        "Team Lead for AI automation project; Mentor at Amrita AI & Robotics Club.",
-      image: null,
-      footerLink: []
-    }
-  ],
-  display: true
+  display: false,
+  achievements: []
 };
 
 /* Blogs / Talks / Podcast */

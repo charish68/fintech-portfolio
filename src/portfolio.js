@@ -66,7 +66,6 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Amrita Vishwa Vidyapeetham",
-      logo: require("./assets/images/education.png"),
       subHeader: "Bachelor's Degree in Artificial Intelligence",
       duration: "2021 – 2025",
       desc:
@@ -79,6 +78,7 @@ const educationInfo = {
     }
   ]
 };
+
 
 /* Tech Stack */
 const techStack = {

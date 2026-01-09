@@ -166,10 +166,10 @@ const bigProjects = {
   display: true
 };
 
-/* Achievements (SAFE) */
 const achievementSection = {
-  display: false // disabled to avoid template crash
+  display: false
 };
+
 
 /* Blogs / Talks / Podcast */
 const blogSection = { display: false };

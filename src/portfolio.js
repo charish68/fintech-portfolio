@@ -68,6 +68,7 @@ const educationInfo = {
       schoolName: "Amrita Vishwa Vidyapeetham",
       subHeader: "Bachelor's Degree in Artificial Intelligence",
       duration: "2022 – 2026",
+
       desc:
         "Focused on Artificial Intelligence, Machine Learning, Data Science, and Software Engineering.",
       descBullets: [

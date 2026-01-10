@@ -170,7 +170,6 @@ const bigProjects = {
 /* Achievements */
 const achievementSection = {
   display: false,
-  achievements: []
 };
 
 /* Blogs / Talks / Podcast */

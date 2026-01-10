@@ -54,7 +54,6 @@ const Main = () => {
             <WorkExperience />
             <Projects />
             <StartupProject />
-            {/* ❌ Achievement REMOVED */}
             <Blogs />
             <Talks />
             <Twitter />

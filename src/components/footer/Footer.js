@@ -11,7 +11,7 @@ export default function Footer() {
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made with ❤️ by charish yadav")}
+          {emoji("Made with ❤️ by ")}
           <a
             href="https://github.com/charish68"
             target="_blank"
@@ -23,7 +23,7 @@ export default function Footer() {
         </p>
 
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Portfolio source on{"charish "}
+          Portfolio source on{" "}
           <a
             href="https://github.com/charish68/fintech-portfolio"
             target="_blank"
